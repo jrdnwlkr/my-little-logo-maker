@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
+const fs = require("fs");
 
-const questions = [
+inquirer.prompt([
     {
         type: "input",
         name: "text",
@@ -22,4 +23,6 @@ const questions = [
         name: "shape-color",
         message: "Enter a color keyword or hexidecimal for the shape color."
     }
-];
+]).then(userInput)
+
+init()

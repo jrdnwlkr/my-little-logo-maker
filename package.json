@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/jrdnwlkr/my-little-logo-maker/issues"
   },
-  "homepage": "https://github.com/jrdnwlkr/my-little-logo-maker#readme"
+  "homepage": "https://github.com/jrdnwlkr/my-little-logo-maker#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.6"
+  }
 }
