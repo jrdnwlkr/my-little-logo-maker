@@ -7,7 +7,7 @@ This application generates a simple logo based on user input. After running the 
 
 
 ## Logo Examples
-<img src="./logos/circle.svg"> <img src="./logos/square.svg"> <img src="./logos/triangle.svg">
+<img style="display:inline" src="./logos/circle.svg"> <img style="display:inline" src="./logos/square.svg"> <img style="display:inline" src="./logos/triangle.svg">
 
 ## Technologies Used
 NodeJs, Jest, Inquirer, and the File System module
